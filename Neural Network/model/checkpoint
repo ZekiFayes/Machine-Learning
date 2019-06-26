@@ -1,0 +1,2 @@
+model_checkpoint_path: "SNN.ckpt"
+all_model_checkpoint_paths: "SNN.ckpt"
