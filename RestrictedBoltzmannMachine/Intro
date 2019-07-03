@@ -1,0 +1,11 @@
+In this document, we derive the RBM model. We also touch upon gradient descent and L-BFGS Solver.
+
+Gradient Descent:
+1. Batch Gradient Descent (BGD)
+2. Stochastic Gradient Descent (SGD)
+3. MiniBatch Gradient Descent (MBGD)
+
+Solver
+1. DFP
+2. BFGS
+3. L-BFGS
