@@ -1,0 +1,19 @@
+This is to implement the algorithms mentioned in Batch Normalization: Accelerating Deep Network Training by
+Reducing Internal Covariate Shift.
+
+## Batch Normalization
+Please refer to the paper.
+
+## BN_Model
+We use a shallow neural network to add batch normalization in. Then we build a model.
+
+## Train
+Train.py
+
+## Evaluate
+Evaluate.py
+
+## Retrain
+Retrain.py
+
+We can observe that the accuracy is improved significantly.
