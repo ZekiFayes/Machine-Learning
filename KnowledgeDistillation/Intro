@@ -1,0 +1,10 @@
+This is to implement Knowledge distillation. We refer to Distilling the Knowledge in a Neural Network - Hinton.
+
+## The basic block
+Lib.py, Hparams.py, main.py, Preprocessing.py, KD_model.py, Train.py, Evaluate.py
+
+## Knowledge Distillation
+This is to transfer information of a complicated model to a simple model as much as possible.
+
+We observe that the accuracy of distilled model increases with the accuracy of the complicated model increasing, which means the knowledge of
+a complicated model is transfered to a simple model.
