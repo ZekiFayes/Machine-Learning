@@ -1,6 +1,6 @@
 from Lib import *
 from Hparams import *
-from Model import model_fn
+from Model import ae_model_fn, rbm_model_fn
 from Preprocessing import load_data
 
 
@@ -9,7 +9,8 @@ def evaluate(mnist):
     x = tf.placeholder("float", [None, sm_param['num_inputs']])
     y = tf.placeholder("float", [None, sm_param['num_classes']])
 
-    accuracy = model_fn(x, y, 'test')
+    # accuracy = ae_model_fn(x, y, 'test')
+    accuracy = rbm_model_fn(x, y, [1], 'test')
 
     init = tf.global_variables_initializer()
     saver = tf.train.Saver()

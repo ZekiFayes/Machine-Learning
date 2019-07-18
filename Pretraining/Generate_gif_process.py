@@ -5,9 +5,9 @@ def generate():
 
     image = []
 
-    for i in range(1, 26):
+    for i in range(1, 4):
         image.append(imageio.imread('Figure/fig' + str(int(i)) + '.png'))
-    imageio.mimsave('Figure/wb.gif', image, fps=2)
+    imageio.mimsave('Figure/wb1.gif', image)
 
 
 def main(argv=None):
