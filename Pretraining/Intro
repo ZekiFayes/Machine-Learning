@@ -1,7 +1,7 @@
 This is to pretrain a shallow neural network. We refer to Reducing the Dimensionality of Data with Neural Networks - Hinton.
 
-In the paper, the author uses RBMs to pretrain an AutoEncoder. Here, we use Autoencoders to pretrain a shallow neural network. 
-Later, we wil use RBMs to pretrain an AutoEncoder.
+In the paper, the author uses RBMs to pretrain an AutoEncoder. Here, we use Autoencoders to pretrain a shallow neural network.
+We also use RBMs to pretrain a shallow neural network. We achieve relatively good results using both pretraining methods.
 
 ## Model
 The basic model is SNN. But we add some autoencoders to pretrain the model.
