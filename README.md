@@ -7,12 +7,12 @@ Most of Machine Learning problems are Optimization problems, which means that we
 ## General Solution
 Now that the machine learning problem can be an optimization problem. We can employ Back Propagation to update weights and biases. Some elements are involved in these process.
 
-#### Gradient Descent
+### Gradient Descent
 Batch Gradient Descent,
 Stochastic Gradient Descent,
 Mini-batch Stochastic Gradient Descent.
 
-#### Update Strategy
+### Update Strategy
 Refer to An overview of gradient descent optimization algorithms -- Sebastian Ruder. 
 Momentum,
 Nesterov accelerated gradient,
@@ -31,16 +31,16 @@ It is very common.
 Regularization. L1/L2 Norm, Dropout, Batch Normalization. 
 
 ## Basic Model
-#### Shallow Neural Network (SNN)
+### Shallow Neural Network (SNN)
 This is the very basic model for the complicated neural network.
 
-#### Convolutional Neural Network (CNN)
+### Convolutional Neural Network (CNN)
 This model consists of Convolutional layer, pooling layer, fully-connected layer. This is especially for image processing.
 
-#### AutoEncoder (AE)
+### AutoEncoder (AE)
 This model is used to make inputs sparse and denoise in the inputs. AE can be employed to pretrain deep neural network such that it is fast convergent.
 
-#### Recursive/Recurrent Neural Network (RNN)
+### Recursive/Recurrent Neural Network (RNN)
 This model is similar to other models, but it has a state or memory. In control engineering, we use modern control theory -- State Space Equation. Similarly, RNN is built based on this and solved by BPTT.
 
 ## Advanced Model
