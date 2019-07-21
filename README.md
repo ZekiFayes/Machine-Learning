@@ -86,5 +86,5 @@ This is a directed graphical model.
 
 ## Platform
 ### TensorFlow
-The core elementare are Tensors and Matrix Operations.
+The core elements are Tensors and Matrix Operations.
 We refer to Numerical Methods for Computational Science and Engineering -- Prof. R. Hiptmair, SAM, ETH Zurich
