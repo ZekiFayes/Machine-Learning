@@ -83,3 +83,8 @@ This is a directed graphical model.
 #### Decision Tree (DT)
 #### Random Forest (RF)
 #### K-Nearest Neighbor (KNN)
+
+## Platform
+### TensorFlow
+The core elementare are Tensors and Matrix Operations.
+We refer to Numerical Methods for Computational Science and Engineering -- Prof. R. Hiptmair, SAM, ETH Zurich
