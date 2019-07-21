@@ -1,0 +1,2 @@
+This is to implement Dropout. We refer to Dropout: A Simple Way to Prevent Neural Networks from Overfitting -- Nitish Srivastava.
+We finished the basic framework. Next we are going to optimize the parameters.
