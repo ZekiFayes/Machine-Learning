@@ -24,6 +24,7 @@ Adam.
 ## Common Problems
 ### Gradient Vanishing/Exploding
 It usually ouccurs in the input layer. 
+
 ### Underfitting/Overfitting
 It is very common.
 
@@ -78,6 +79,7 @@ This is to pretrain neural network using AE or RBM. Refer to Reducing the Dimens
 This is to combine many trained models together such that it can prevent overfitting.  Refer to Dropout: A simple Way to Prevent Neural Network from Overfitting -- Nitish Srivastava.
 
 ## Probabilistic Graphical Model (PGM)
+
 ### Restricted Boltzmann Machine (RBM)
 This is a undirected graphical model. It can be used in pretraining and recommendation systems. Refer to Boltzmann Machines -- Geoffrey E. Hinton. A practical Guide to training Restricted Boltzmann Machines.
 
@@ -86,10 +88,15 @@ This is a directed graphical model.
 
 ## Classification
 #### Perceptron
+
 #### Logistic Regression (LR)
+
 #### Support vector Machine (SVM)
+
 #### Decision Tree (DT)
+
 #### Random Forest (RF)
+
 #### K-Nearest Neighbor (KNN)
 
 ## Platform
