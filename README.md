@@ -53,6 +53,14 @@ This is to train two networks at same time. One is Discriminator; the other is G
 ### Deep Convolutional GAN (DCGAN)
 This is a variant of GAN. It uses Deep Convolutional Neural Network as a Generator. Refer to Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Network -- Alec Radford & Luke Metz.
 
+## Architecture
+#### LeNet5
+#### AlexNet
+#### VGG16/19
+#### GoogleNet
+
+Refer to Very deep convolutional networks for large-scale image recognition - Karen Simonya. Going Deeper with Convolutions - Christian Szegedy.
+
 ## Optimization Technique
 ### Initialization
 This is to initialize the weights and biases. Refer to Understanding the difficulty of training deep feedforward neural networks -- Xavier Glorot.
